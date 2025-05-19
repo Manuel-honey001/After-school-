@@ -51,7 +51,7 @@
     const nom = params.get("nom") || "";
     const prenom = params.get("prenom") || "";
     const message = `J'ai payé pour l'inscription à l'événement. Mon nom est ${prenom} ${nom}. Merci de m'envoyer le lien du groupe WhatsApp.`;
-    const numeroWhatsApp = "01889555"; // remplace par TON numéro (sans +)
+    const numeroWhatsApp = "2250142889555"; // remplace par TON numéro (sans +)
     const lienWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(message)}`;
 
     document.getElementById("whatsappBtn").setAttribute("href", lienWhatsApp);
