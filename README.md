@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<! payement>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -31,6 +31,12 @@
     a.btn:hover {
       background-color: #1e40af;
     }
+    a.btn-success {
+      background-color: #22c55e;
+    }
+    a.btn-success:hover {
+      background-color: #15803d;
+    }
   </style>
 </head>
 <body>
@@ -45,19 +51,9 @@
     <!-- Lien de paiement Wave -->
     <a class="btn" href="https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=8000" target="_blank">Payer maintenant via Wave</a>
 
-    <!-- Bouton WhatsApp -->
-    <a class="btn" id="whatsappBtn" href="#" target="_blank">J'ai payé – Confirmer par WhatsApp</a>
+    <!-- Instructions et bouton WhatsApp -->
+    <p style="margin-top: 30px;">Après avoir payé, cliquez sur le bouton ci-dessous pour rejoindre notre groupe WhatsApp :</p>
+    <a class="btn btn-success" href="https://chat.whatsapp.com/TON-LIEN-GROUPE" target="_blank">Rejoindre le groupe WhatsApp</a>
   </div>
-
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const nom = params.get("nom") || "";
-    const prenom = params.get("prenom") || "";
-    const message = `J'ai payé pour l'inscription à l'événement. Mon nom est ${prenom} ${nom}. Merci de m'envoyer le lien du groupe WhatsApp.`;
-    const numeroWhatsApp = "2250142889555"; // Ton numéro (sans +)
-    const lienWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(message)}`;
-
-    document.getElementById("whatsappBtn").setAttribute("href", lienWhatsApp);
-  </script>
 </body>
 </html>
