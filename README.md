@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -43,7 +43,7 @@
     <p>Nom du bénéficiaire : <strong>OUATTARA Fatoumata</strong></p>
 
     <!-- Lien de paiement Wave -->
-    <a class="btn"https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=8000" target="_blank">Payer maintenant</a>
+    <a class="btn" href="https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=8000" target="_blank">Payer maintenant via Wave</a>
 
     <!-- Bouton WhatsApp -->
     <a class="btn" id="whatsappBtn" href="#" target="_blank">J'ai payé – Confirmer par WhatsApp</a>
