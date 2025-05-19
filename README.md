@@ -39,10 +39,13 @@
     <p>Merci pour votre inscription. Pour valider votre participation, veuillez effectuer un paiement via Wave.</p>
     
     <p><strong>Montant :</strong> 8000 FCFA</p>
-    <p><strong>Numéro Wave :</strong>05 54 42 97 85</p>
+    <p><strong>Numéro Wave :</strong> 05 54 42 97 85</p>
     <p>Nom du bénéficiaire : <strong>OUATTARA Fatoumata</strong></p>
 
-    <!-- Bouton WhatsApp généré dynamiquement -->
+    <!-- Lien de paiement Wave -->
+    <a class="btn"https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=8000" target="_blank">Payer maintenant</a>
+
+    <!-- Bouton WhatsApp -->
     <a class="btn" id="whatsappBtn" href="#" target="_blank">J'ai payé – Confirmer par WhatsApp</a>
   </div>
 
@@ -51,7 +54,7 @@
     const nom = params.get("nom") || "";
     const prenom = params.get("prenom") || "";
     const message = `J'ai payé pour l'inscription à l'événement. Mon nom est ${prenom} ${nom}. Merci de m'envoyer le lien du groupe WhatsApp.`;
-    const numeroWhatsApp = "2250142889555"; // remplace par TON numéro (sans +)
+    const numeroWhatsApp = "2250142889555"; // Ton numéro (sans +)
     const lienWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(message)}`;
 
     document.getElementById("whatsappBtn").setAttribute("href", lienWhatsApp);
