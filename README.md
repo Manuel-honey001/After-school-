@@ -1,5 +1,5 @@
 
-<! Payement via wave>
+<! PAYEMENT VIA WAVE>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -10,20 +10,20 @@
       margin: 0;
       padding: 0;
       font-family: 'Quicksand', sans-serif;
-      background: linear-gradient(to bottom, #a2d4f5, #ffffff);
-      text-align: center;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+      background-size: cover;
       color: #333;
     }
     .container {
       padding: 50px 20px;
     }
     .box {
-      background-color: #ffffffcc;
+      background-color: rgba(255, 255, 255, 0.9);
       border-radius: 15px;
       padding: 30px;
       max-width: 600px;
       margin: auto;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
     }
     h2 {
       color: #f59e0b;
@@ -86,7 +86,7 @@
       </a>
 
       <p class="footer-note">Une fois votre paiement effectué, cliquez sur le bouton ci-dessous pour accéder au groupe WhatsApp :</p>
-      <a class="btn btn-whatsapp" href="https://chat.whatsapp.com/TON-LIEN-GROUPE" target="_blank">
+      <a class="btn btn-whatsapp" href="(https://chat.whatsapp.com/KI6sN0DBFkp5MNIg8lxNFR)" target="_blank">
         Rejoindre le groupe WhatsApp
       </a>
     </div>
