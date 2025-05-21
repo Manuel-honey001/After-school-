@@ -80,13 +80,13 @@
         Payer 10000 FCFA
       </a>
 
-      <h3>Participants non-Délégué</h3>
+      <h3>Participants After school</h3>
       <a class="btn" href="https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=5000" target="_blank">
         Payer 5000 FCFA
       </a>
 
       <p class="footer-note">Une fois votre paiement effectué, cliquez sur le bouton ci-dessous pour accéder au groupe WhatsApp :</p>
-      <a class="btn btn-whatsapp" href="(https://chat.whatsapp.com/KI6sN0DBFkp5MNIg8lxNFR)" target="_blank">
+      <a class="btn btn-whatsapp" href="https://chat.whatsapp.com/KI6sN0DBFkp5MNIg8lxNFR" target="_blank">
         Rejoindre le groupe WhatsApp
       </a>
     </div>
