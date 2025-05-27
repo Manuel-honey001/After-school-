@@ -71,17 +71,17 @@
       <p>Choisissez le tarif correspondant à votre statut pour valider votre participation à notre événement détente en bord de mer !</p>
 
       <h3>Délégués</h3>
-      <a class="btn" href="https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=8000" target="_blank">
+      <a class="btn" href="https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=8080" target="_blank">
         Payer 8000 FCFA
       </a>
 
       <h3>Membres du STAFF</h3>
-      <a class="btn" href="https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=10000" target="_blank">
+      <a class="btn" href="https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=10100" target="_blank">
         Payer 10000 FCFA
       </a>
 
       <h3>Participants After school</h3>
-      <a class="btn" href="https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=5000" target="_blank">
+      <a class="btn" href="https://pay.wave.com/m/M_ci_PosgFP_Yw3Xu/c/ci/?amount=5050" target="_blank">
         Payer 5000 FCFA
       </a>
 
